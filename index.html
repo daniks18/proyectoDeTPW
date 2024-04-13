@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explora Perú: Tu Guía Online</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <center>
+                    <img src="imagenes/banner.jpg" width="1300px" height="350px">
+                </center>
+                <img src="imagenes/logo.png" alt="Logo de la Barbería" width="200px" height="200px">
+                <nav>
+                    <form>
+                        <label for="busqueda"></label>
+                        <input type="search" id="busqueda" name="busqueda" placeholder="Busca tu actividad">
+                        <input type="submit" value="Buscar">
+                    </form>
+                    <div align="right"><!--Es para poner a la derecha de la pagina-->
+                        <ul >
+                            <a href="favorito.html">FAVORITOS</a> |
+                            <a href="plan.html">MIS PLANES</a> |
+                            <a href="perfil.html">PERFIL</a>
+                        </ul>
+                    </div>
+                </nav>
+            </div><br>
+            <nav>
+                <h1>Explora, vive, recuerda: tu viaje, tu legado</h1>
+                <center>
+                    <ul >
+                        <a href="cultura.html">CULTURA</a> | 
+                        <a href="gastronomia.html">GASTRONOMIA</a> |
+                        <a href="aventura.html">AVENTURA</a> |
+                        <a href="evento.html">EVENTOS</a>
+                    </ul>
+                </center>
+            </nav>
+        </header><br><br>
+
+        <main>
+            <div>
+                <label>Filtro</label><br>
+                <p>Marca sus preferencias de actividades</p>
+                <p>Horario:</p>
+                <label><input type="checkbox" >Día</label>
+                <label><input type="checkbox" >Noche</label>
+                <p>Categorías:</p>
+                <label><input type="checkbox" >Actividad extrema</label><br>
+                <label><input type="checkbox" >Actividad acuática</label><br>
+                <label><input type="checkbox" >Excursiones de un día</label><br>
+                <label><input type="checkbox" >Excursiones de varios día</label><br>
+                <p>Precio</p>
+                <input type="number" placeholder="mín">
+                <input type="number" placeholder="máx">
+                <p>Valoración</p>
+                <label><input type="checkbox" >3.0+</label><br>
+                <label><input type="checkbox" >3.5+</label><br>
+                <label><input type="checkbox" >4.0+</label><br>
+                <label><input type="checkbox" >4.5+</label><br><br>
+                <input type="submit" id="restablecer" value="Restablecer todo">
+                <input type="submit" id="filtrar" value="Mostrar resultado">
+            </div>
+            <center>
+                <section>
+                    <ul type="none">
+                        <li>
+                            <img src="imagenes/imagen4.jpg" width="300px" height="200px">
+                            <p>Lima: Circuito Mágico del Agua</p>
+                            <p>$25.00</p>
+                        </li>
+                        <li>
+                            <img src="imagenes/imagen1.jpg" width="300px" height="200px">
+                            <p>Ica: Excursion a Paracas y al oasis de la Huacachina</p>
+                            <p>$80.00</p>
+                        </li>
+                        <li>
+                            <img src="imagenes/imagen2.jpg" width="300px" height="200px">
+                            <p>Lima: Tour en autobús con entrada a la catedral</p>
+                            <p>$45.00</p>
+                        </li>
+                    </ul>
+                </section>
+            </center>
+        </main><br><br><br>
+        <center>
+            <footer>
+                <p>&copy; Copyright Explora Perú - 2024</p>
+            </footer>
+        </center>
+        <br><br><br>
+    </body>
+</html>
