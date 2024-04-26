@@ -51,20 +51,29 @@ h1{
     left: 80px;
 }
 .tipos nav li{
-    background-color: #EDEDED;
+    background-color: #504d4d85;
     border-radius: 10px 10px 0 0;
+    border: 1px solid #504d4dfd;
     display: inline-block;
     margin: -2px;
     padding: 10px;
 }
 .tipos nav a{
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
 }
-
+.tipos nav li:hover {
+    background-color: #EDEDED;
+	box-shadow: 0 0 20px 5px #EDEDED;
+    border: none;
+    transform: scale(1.1);
+}
+.tipos nav a:hover{
+    color: #000000;
+}
 /*MAIN*/
 /*MAS BUSCADO*/
 main{
@@ -77,6 +86,7 @@ main{
 }
 .mas-buscado{
     width: 940px;
+    height: 320px;
     top: -3px;
     background-color: #EDEDED;
     position: relative;
@@ -102,6 +112,15 @@ main{
     border: 3px solid #000000;
     border-radius: 10px;
 }
+.mas-buscado li:hover{
+    border-color: #c78c19;
+    transform: scale(1.01);
+}
+
+.mas-buscado li:active{
+    border-color: #088c19;
+}
+
 
 /*SUGERENCIA*/
 .sugerencia{
@@ -131,6 +150,15 @@ main{
     border: 3px solid #000000;
     border-radius: 10px;
 }
+.sugerencia li:hover{
+    border-color: #c78c19;
+    transform: scale(1.01);
+}
+
+.sugerencia li:active{
+    border-color: #088c19;
+}
+
 
 /*FOOTER*/
 .footer{
@@ -166,5 +194,12 @@ main{
 }
 
 
-/*ESTILO PARA FAVORITOS*/
+/*ESTILO PARA ARCH.CULTURA*/
+.ExpCultura{
+    left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
