@@ -1,110 +1,103 @@
 <!DOCTYPE html>
+
 <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="reset.css">
-        <title>AVENTURAS</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Explora Perú: Tu Guía Online</title>
     </head>
     <body>
         <header>
             <div class="encabezado">
-                <img src="imagenes/logo_transparent.png" width="200px" height="200px">
+                <a href="index.html"><img src="imagenes/logo_transparent_2.png" width="100px" height="100px"></a>
                 <form>
                     <label for="busqueda"></label>
                     <input type="search" id="busqueda" name="busqueda" placeholder="Busca tu actividad">
                     <input type="submit" value="Buscar">
                 </form>
                 <nav>
-                    <div>
-                        <ul >
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="favorito.html">FAVORITOS</a></li> |
-                            <li><a href="plan.html">MIS PLANES</a></li> |
-                            <li><a href="perfil.html">PERFIL</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="tipos">
-                <nav>
-                    <img src="imagenes/banner.jpg" width="1300px" height="350px">
-                    <h1>Explora, vive, recuerda: tu viaje, tu legado</h1>
-                    <ul >
-                        <li><a href="cultura.html">CULTURA</a></li> | 
-                        <li><a href="gastronomia.html">GASTRONOMIA</a></li> |
-                        <li><a href="aventura.html">AVENTURA</a></li> |
-                        <li><a href="evento.html">EVENTOS</a></li>
+                    <ul>
+                        <li><a href="favorito.html"><img src="vector/Vector.png" alt=""></a></li>
+                        <li><a href="plan.html"><img src="vector/Vector (1).png" alt=""></a></li>
+                        <li><a href="perfil.html"><img src="vector/Vector (2).png" alt=""></a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <div class="tipos">
+            <img src="imagenes/banner.jpg" width="940px" height="350px">
+            <h1>Explora, vive, recuerda: tu viaje, tu legado</h1>
+            <nav>
+                <ul >
+                    <li><a href="cultura.html">CULTURA</a></li>
+                    <li><a href="gastronomia.html">GASTRONOMIA</a></li>
+                    <li><a href="aventura.html">AVENTURA</a></li>
+                    <li><a href="evento.html">EVENTOS</a></li>
+                </ul>
+            </nav>
+        </div>
         <main>
-            <div>
-                <label>Filtro</label><br>
-                <p>Marca sus preferencias de actividades</p>
-                <p>Horario:</p>
-                <label><input type="checkbox" >Día</label>
-                <label><input type="checkbox" >Noche</label>
-                <p>Categorías:</p>
-                <label><input type="checkbox" >Actividad extrema</label><br>
-                <label><input type="checkbox" >Actividad acuática</label><br>
-                <label><input type="checkbox" >Excursiones de un día</label><br>
-                <label><input type="checkbox" >Excursiones de varios día</label><br>
-                <p>Precio</p>
-                <input type="number" placeholder="mín">
-                <input type="number" placeholder="máx">
-                <p>Valoración</p>
-                <label><input type="checkbox" >3.0+</label><br>
-                <label><input type="checkbox" >3.5+</label><br>
-                <label><input type="checkbox" >4.0+</label><br>
-                <label><input type="checkbox" >4.5+</label><br><br>
-                <input type="submit" id="restablecer" value="Restablecer todo">
-                <input type="submit" id="filtrar" value="Mostrar resultado">
-            </div>
-            <section>
-                <ul type="none">
+            <section class="mas-buscado">
+                <h1 class="buscado">LO MAS BUSCADO</h1>
+                <ul>
                     <li>
-                        <img src="imagenes/imagen11.jpg" width="300px" height="200px"><br>
-                        <a href="https://maps.app.goo.gl/H7rgXa2ezWZ3eZR8A">Ubicación</a>
-                        <p>Lima: Apu Siqay - Colchón de nubes</p>
+                        <img src="imagenes/imagen4.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/TN4jqrcRZdn3VHLJA">Ubicación</a>
+                        <p>Lima: Circuito Mágico del Agua</p>
                         <p>$25.00</p>
                     </li>
                     <li>
-                        <img src="imagenes/imagen12.jpg" width="320px" height="200px"><br>
-                        <a href="https://maps.app.goo.gl/NnFTYRGaP9G85KVU9">Ubicación</a>
-                        <p>Lima: Huancaya - Cascadas y lagunas</p>
+                        <img src="imagenes/imagen1.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/uQ4b6QUAsNx93RwA9">Ubicación</a>
+                        <p>Ica: Excursion a Paracas y al oasis de la Huacachina</p>
                         <p>$80.00</p>
                     </li>
                     <li>
-                        <img src="imagenes/imagen13.jpg" width="300px" height="230px"><br>
-                        <a href="https://maps.app.goo.gl/PsHptVjEhcpuXNuv5">Ubicación</a>
-                        <p>Lima: Lunahuaná - Rafting</p>
+                        <img src="imagenes/imagen2.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/XZJ2whEhjpLmqD2U8">Ubicación</a>
+                        <p>Lima: Tour en autobús con entrada a la catedral</p>
+                        <p>$45.00</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="sugerencia">
+                <h1 class="talvez">TAL VEZ TE GUSTE</h1>
+                <ul>
+                    <li>
+                        <img src="imagenes/imagen4.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/TN4jqrcRZdn3VHLJA">Ubicación</a>
+                        <p>Lima: Circuito Mágico del Agua</p>
+                        <p>$25.00</p>
+                    </li>
+                    <li>
+                        <img src="imagenes/imagen1.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/uQ4b6QUAsNx93RwA9">Ubicación</a>
+                        <p>Ica: Excursion a Paracas y al oasis de la Huacachina</p>
+                        <p>$80.00</p>
+                    </li>
+                    <li>
+                        <img src="imagenes/imagen2.jpg" width="250px" height="150px">
+                        <a href="https://maps.app.goo.gl/XZJ2whEhjpLmqD2U8">Ubicación</a>
+                        <p>Lima: Tour en autobús con entrada a la catedral</p>
                         <p>$45.00</p>
                     </li>
                 </ul>
             </section>
         </main>
         <footer>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Asistencia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sobre nosotros</td>
-                    </tr>
-                    <tr>
-                        <td>Contacto</td>
-                    </tr>
-                    <tr>
-                        <td>Opiniones</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>&copy; Copyright Explora Perú - 2024</p>    
-        </footer>
+            <section class="footer">
+                <img src="imagenes/logo_transparent_2.png" width="150px" height="150px">
+                <nav>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Opiniones</a></li>
+                    </ul>
+                </nav>
+                <p>&copy; Copyright Explora Perú - 2024</p>
+            </section>
+        </footer>        
     </body>
 </html>

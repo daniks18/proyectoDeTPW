@@ -1,0 +1,170 @@
+/*ESTILO PARA HOME*/
+/*Header Encabezado*/
+header{
+    background-color: #2C2F33;
+}
+.encabezado{
+    width: 940px;
+    height: 100px;
+    background-color: #2C2F33;
+    position: relative;
+    margin: 0 auto;
+}
+.encabezado nav{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.encabezado nav li{
+    display: inline;
+    margin: 0 0 0  15px;
+}
+.encabezado nav a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.encabezado form{
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+/*SECTION Banner*/
+.tipos{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.tipos nav{
+    position: absolute;
+    top: 312px;
+    left: 80px;
+}
+.tipos nav li{
+    background-color: #EDEDED;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+    margin: -2px;
+    padding: 10px;
+}
+.tipos nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*MAIN*/
+/*MAS BUSCADO*/
+main{
+    width: 940px;
+    top: -10px;
+    background-color: #EDEDED;
+    position: relative;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+.mas-buscado{
+    width: 940px;
+    top: -3px;
+    background-color: #EDEDED;
+    position: relative;
+    margin: 0 auto;
+}
+.buscado{
+    left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mas-buscado li{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    text-align: center;
+    width: 30%;
+    height: 250px;
+    vertical-align: top;
+    margin-top: 50px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+/*SUGERENCIA*/
+.sugerencia{
+    width: 940px;
+    top: -3px;
+    background-color: #EDEDED;
+    position: relative;
+    margin: 0 auto;
+}
+.talvez{
+    left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sugerencia li{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    text-align: center;
+    width: 30%;
+    height: 250px;
+    vertical-align: top;
+    margin-top: 50px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #DAD7D0;
+    width: 940px;
+    top: -10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer nav{
+    position: absolute;
+    top: 60px;
+    right: 330px;
+}
+.footer nav li{
+    display: inline;
+    margin: 0 0 0  15px;
+}
+.footer nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer p{
+    position: absolute;
+    font-size: 15px;
+    top: 120px;
+    right: 368px;
+}
+
+
+/*ESTILO PARA FAVORITOS*/
+
